@@ -81,3 +81,47 @@ footer{
     padding: 10px 8px ;
     border-radius: 10px;
 }
+
+.inizio{
+  height: 80vh;
+  display: flex;
+  /*se non ci stai, vai a capo*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenitore {
+  width: 40%;
+  background-color: lightskyblue;
+  height: 35%;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* animazione quando passo con il mouse sui contenitore */
+
+.contenitore:hover {
+
+  background-color:fuchsia;
+  transition: 0,3s;
+}
+
+/* personalizzo il riquadro del curriculum */
+  .cv {
+    display: flex;
+    justify-content: center;
+  }
+
+.curriculum {
+  width: 80%;
+  padding: 20px;
+  border: 1px solid black;
+
+}
+
+.intestazione {
+  text-align: center;
+}
