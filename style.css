@@ -1,3 +1,8 @@
+html{
+  /* proprieta che scrolla il sito*/
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -59,6 +64,13 @@ header{
     display: none;
   }
 
+  .menu{
+    cursor: pointer
+  }
+  .menu-lista > ul > li {
+    text-align: center;
+  }
+
 footer{
     height: 13vh;
     display: flex;
@@ -81,6 +93,8 @@ footer{
     padding: 10px 8px ;
     border-radius: 10px;
 }
+
+
 
 .inizio{
   height: 80vh;
@@ -113,10 +127,12 @@ footer{
   .cv {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
 .curriculum {
-  width: 80%;
+  width: 65%;
   padding: 20px;
   border: 1px solid black;
 
@@ -125,3 +141,37 @@ footer{
 .intestazione {
   text-align: center;
 }
+
+.fascia-download{
+  background-color: lightblue;
+  width: 100%;
+  height: 10vh;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bottone{
+  background-color: azure;
+  color:lightseagreen;
+  font-family: "boldonse";
+  padding: 10px 20px ;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottone:hover {
+  background-color: lightseagreen;
+  color: azure;
+  border: 1px solid azure;
+}
+
+.bonus {
+  height: 50vh;
+}
+
