@@ -1,82 +1,83 @@
-html{
-  /* proprieta che scrolla il sito*/
-  scroll-behavior: smooth;
-}
 
+<div id="menu">
+        <div class="menu-lista">
+            <ul class="garamond">
+                <li>
+                    <a href="./index.html">Intro</a>
+                </li>
+                <li>
+                    <a href="#cv">cv</a>
+                </li>
+                <li>
+                    <a href="./pages/stage.html">stage</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+ELIA BARONIO, 2 min
 body {
     margin: 0;
 }
 
-header{
-    background-color: cadetblue;
+header {
+    background-color: gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
     padding-left: 2%;
     padding-right: 2%;
-    color: white;
+    color: black;
 }
 
 .hero {
-    background-color: blueviolet;
-    display: flex;
+    background-color: #DEC6FF;
     height: 92vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color: white;
+    color: black;
 }
 
 .boldonse {
     font-family: "Boldonse", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
 
-  
-.montserrat{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+.garamond {
+    font-family: "EB Garamond", serif;
+}
 
-  .byte {
-    font-family: "Bytesized", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  ul {
-    list-style:none ;
+ul {
+    list-style: none;
+}
 
-  }
-
-  li{
+li {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-  }
+}
 
-  #menu { 
-    /* all'inizio non si vede*/
+#menu {
     display: none;
-  }
+}
 
-  .menu{
-    cursor: pointer
-  }
-  .menu-lista > ul > li {
+.menu{
+    cursor: pointer;
+}
+
+.menu-lista > ul > li {
     text-align: center;
-  }
+} 
 
-footer{
-    height: 13vh;
+footer {
+    height:  13vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}  
+}
 
 .logoScuola {
     height: 13vh;
@@ -88,90 +89,122 @@ footer{
 
 .info > a {
     text-decoration: none;
-    background-color: darkcyan;
+    background-color: rgb(59, 66, 66);
     color: white;
-    padding: 10px 8px ;
+    padding: 10px 8px;
     border-radius: 10px;
 }
 
+footer > div {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
 
-
-.inizio{
-  height: 80vh;
-  display: flex;
-  /*se non ci stai, vai a capo*/
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.inizio {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenitore {
-  width: 40%;
-  background-color: lightskyblue;
-  height: 35%;
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 40%;
+    background-color: grey;
+    height: 35%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-/* animazione quando passo con il mouse sui contenitore */
 
 .contenitore:hover {
-
-  background-color:fuchsia;
-  transition: 0,3s;
+    background-color: mistyrose;
+    transition: 0.3s;
 }
 
-/* personalizzo il riquadro del curriculum */
-  .cv {
+.cv {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+}
 
 .curriculum {
-  width: 65%;
-  padding: 20px;
-  border: 1px solid black;
-
+    width: 65%;
+    padding: 20px;
+    border: 1px solid black;
 }
 
 .intestazione {
-  text-align: center;
+    text-align: center;
 }
 
-.fascia-download{
-  background-color: lightblue;
-  width: 100%;
-  height: 10vh;
-  margin-top: 3vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.fascia-download {
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottone{
-  background-color: azure;
-  color:lightseagreen;
-  font-family: "boldonse";
-  padding: 10px 20px ;
-  border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-family: "Boldonse";
+    padding: 10px 20px;
+    border-radius: 15px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-.bottone:hover {
-  background-color: lightseagreen;
-  color: azure;
-  border: 1px solid azure;
+.bottone:hover{
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
 }
 
-.bonus {
-  height: 50vh;
+.bonus{
+    height: 50vh;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+.testo {
+    text-align: center;
+    width: 60%;
+}
+
+.intro-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.relazione-terza {
+    display: flex;
+}
+
+.sx, .dx {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.immagine {
+    width: 80%;
+    padding: 3%;
+}
