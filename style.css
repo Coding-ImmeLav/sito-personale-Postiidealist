@@ -175,3 +175,31 @@ a {
   height: 50vh;
 }
 
+.intro-stage  {
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.immagine {
+  display: flex;
+  justify-content: end;
+  width: 45%;
+  height: 45%;
+}
+
+.c1{
+  background-image: url(./img/musicaept.jpg);
+  color: aliceblue;
+
+}
+
+.c2{
+  background-image: url(./img/videogioci.jpg);
+  color: aliceblue;
+
+}
+
+
+
