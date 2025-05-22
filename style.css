@@ -205,3 +205,14 @@ a {
   padding: 50px;
 }
 
+.c3{
+  background-image: url(./img/libribri.jpg);
+  color: aliceblue;
+
+}
+
+.c4{
+  background-image: url(./img/foresta.webp);
+  color: blueviolet;
+
+}
