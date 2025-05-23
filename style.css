@@ -216,3 +216,12 @@ a {
   color: blueviolet;
 
 }
+
+.relazione-terza {
+  display: flex;
+}
+
+.sx, .dx {
+  width: 50%;
+
+}
